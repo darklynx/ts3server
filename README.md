@@ -1,4 +1,5 @@
-ts3server
+TeamSpeak3 server
 =========
 
-TeamSpeak3 server (docker)
+Dockerfile to build TeamSpeak3 server image.
+Based on latest Ubuntu image.
