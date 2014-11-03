@@ -9,7 +9,7 @@ MAINTAINER Vladimir L, vladimir_l@gmx.net
 RUN apt-get update && apt-get install -y \
   wget
 
-# Share the location
+# Create a volume for ts3 server (uncomment if backups are required)
 #VOLUME /opt/ts3
 
 # Download and extract server to /opt/ts3
