@@ -6,8 +6,7 @@ FROM ubuntu
 MAINTAINER Vladimir L, vladimir_l@gmx.net
 
 # Install wget
-RUN apt-get update && apt-get install -y \
-  wget
+RUN apt-get update && apt-get install -y wget
 
 # Create a volume for ts3 server (uncomment if backups are required)
 #VOLUME /opt/ts3
