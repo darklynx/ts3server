@@ -1,5 +1,5 @@
 # TeamSpeak server
-# Version 1.0 (3.0.11.1 x64)
+# Version 1.2 (3.0.12.2 x64)
 
 FROM ubuntu
 
@@ -14,8 +14,8 @@ RUN apt-get update && apt-get install -y \
 
 # Download and extract server to /opt/ts3
 RUN mkdir -p /opt/ts3 \
-  && wget -q -O - http://dl.4players.de/ts/releases/3.0.11.1/teamspeak3-server_linux-amd64-3.0.11.1.tar.gz \
-  | tar -xzC /opt/ts3 --strip 1
+  && wget -q -O - http://dl.4players.de/ts/releases/3.0.12.2/teamspeak3-server_linux_amd64-3.0.12.2.tar.bz2 \
+  | tar -xjC /opt/ts3 --strip 1
 
 # Expose ports
 EXPOSE 9987/udp 10011 30033
