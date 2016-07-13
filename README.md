@@ -1,5 +1,5 @@
 TeamSpeak3 server
-=========
+===
 
 `Dockerfile` to build TeamSpeak3 server image.
 
@@ -14,3 +14,8 @@ To run an instance of TeamSpeak3 server use:
 
 The second command will print out the log of TeamSpeak3 server initialization.
 This contains information about ServerAdmin privilege key and Server Query Admin Account.
+
+Links
+---
+ * [TeamSpeak](https://www.teamspeak.com/) developers web-site
+ * [TeamSpeak3 server](https://www.teamspeak.com/downloads#server) download page
